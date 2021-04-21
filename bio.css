@@ -22,17 +22,17 @@ h2{
     text-decoration: underline;
     color: #780000
 }
-  hr{
+hr{
       width: 70%;
       border-top: 1px dashed #780000;
       margin-top: 30px;
   }
-  .timeline {
+.timeline {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
   }
-  .timeline::after {
+.timeline::after {
     content: "";
     position: absolute;
     width: 6px;
@@ -42,13 +42,13 @@ h2{
     left: 50%;
     margin-left: -3px;
   }
-  .container {
+.container {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
   }
-  .container::after {
+.container::after {
     content: "";
     position: absolute;
     width: 25px;
@@ -60,13 +60,13 @@ h2{
     border-radius: 50%;
     z-index: 1;
   }
-  .left {
+.left {
     left: 0;
   }
-  .right {
+.right {
     left: 50%;
   }
-  .left::before {
+.left::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -78,7 +78,7 @@ h2{
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #780000;
   }
-  .right::before {
+.right::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -90,7 +90,7 @@ h2{
     border-width: 10px 10px 10px 0;
     border-color: transparent #780000 transparent transparent;
   }
-  .right::after {
+.right::after {
     left: -16px;
   }
   .content {
@@ -100,7 +100,7 @@ h2{
     border-radius: 6px;
     border: 1px solid #780000;
   }
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .timeline::after {
     left: 31px;
     }
