@@ -49,10 +49,6 @@ nav ul li {
 a{
     text-decoration: none;
 }
-.parr{
-    border: 1px solid black;
-    text-align: center;
-}
 .rellena{
   color: #780000;
   text-align: center;
@@ -91,7 +87,6 @@ a{
   border: 1px solid #FDF0D5;
   padding: 8px 16px;
   border-radius: 20px;
-  
 }
 .contacto input:hover{
   background: #780000;
