@@ -1,6 +1,5 @@
 body, html {
     height:100%;
-    margin: 0px;
     font-family: "Baumans";
     background-color: #FDF0D5;
   } 
@@ -34,9 +33,6 @@ body, html {
     background-color: #780000;
     color: #FDF0D5;
     border:#FDF0D5 1px solid;
-  }
-h1{
-    font-size:90px;
   }
 .barra{
     background: rgb(253,240,213);
